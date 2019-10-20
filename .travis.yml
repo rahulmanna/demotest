@@ -1,4 +1,4 @@
 language: node_js
 
 script: 
- -java jar ToscaCIJavaClient.jar -x -m distributed -t junit
+ -java -jar ToscaCIJavaClient.jar -x -m distributed -t junit
