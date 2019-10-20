@@ -1,5 +1,4 @@
 language: node_js
 
 script: 
- - npm run build
  - java -jar ToscaCIJavaClient.jar -x -e http://localhost:8732/TOSCARemoteExecutionService -t junit
