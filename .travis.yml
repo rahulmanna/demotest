@@ -1,4 +1,4 @@
 language: node_js
 
 script:
-java jar ToscaCIJavaClient.jar
+-run java jar ToscaCIJavaClient.jar
