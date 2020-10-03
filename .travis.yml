@@ -2,4 +2,4 @@ language: node_js
 
 script:
 
- ToscaCIClient.exe -x -e http://localhsot:8732/TOSCARemoteExecutionService -m distributed -t junit
+ -run ToscaCIClient.exe -x -e http://localhsot:8732/TOSCARemoteExecutionService -m distributed -t junit
